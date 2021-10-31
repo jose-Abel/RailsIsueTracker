@@ -1,24 +1,50 @@
-# README
+# Rails-React Issue Tracker - Jose Abel Ramirez Frontany
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
+- Ruby
+- Rails
+- JavaScript
+- React
+- React-dom
+- Webpack
+- Babel
+- HTML
+- CSS
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+To get a local copy up and running follow these simple example steps.
 
-* Configuration
+### Setup
 
-* Database creation
+Go to the top of the page, press te green button that says "Code", and copy the link. Then you have to go to your console and type
 
-* Database initialization
+```
+    git clone 'repository-link'
+```
 
-* How to run the test suite
+That's all, you are ready to go!
 
-* Services (job queues, cache servers, search engines, etc.)
+### Install
 
-* Deployment instructions
+### Usage
 
-* ...
+### Live Version
+
+## Author: Jose Abel Ramirez Frontany\*\*
+
+- GitHub: [Jose Abel Ramirez Frontany](https://github.com/jose-Abel)
+- Linkedin: [Jose Abel Ramirez Frontany](https://www.linkedin.com/in/jose-abel-r-7674a842/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📝 License
+
+This project is MIT licensed.
+
+## Show your support
+
+Give a ⭐️ if you like this project!

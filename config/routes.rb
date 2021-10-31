@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
-  resources :projects
-  root 'pages#home'
-  get 'about', to: 'pages#about'
-  resources :issues, only: [:show, :index]
+  namespace :api do
+    namespace :v1 do
+      get 'projects/index'
+      post 'projects/create'
+      delete 'projects/:id', to: 'projects#destroy'
+    end
+  end
+  root 'projects#index'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
