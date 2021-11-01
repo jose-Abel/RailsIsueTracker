@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       delete 'projects/:id', to: 'projects#destroy'
     end
   end
-  root 'projects#index'
+  root 'dashboard#index'
+  get 'dashboard', to: 'dashboard#index'  
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
