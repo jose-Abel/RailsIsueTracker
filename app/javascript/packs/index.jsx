@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter} from "react-router-dom";
 import AppRouter from './app/AppRouter';
 
-
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     <BrowserRouter>
