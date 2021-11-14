@@ -1,14 +1,14 @@
 import React from 'react';
 import { Route, Switch, Redirect } from "react-router-dom";
 import Projects from '../features/projects/Projects';
-import Dashboard from '../features/Dashboard';
+import Dashboard from '../features/dashboard/Dashboard';
 import ProjectDetail from '../features/projects/ProjectDetail';
 import Sidebar from './layout/Sidebar';
 import classes from './App.module.css';
 
 const App = () => {
   return (
-    <div className={classes.container}>
+    <div>
       <Sidebar/>
       <main>
         <Switch>

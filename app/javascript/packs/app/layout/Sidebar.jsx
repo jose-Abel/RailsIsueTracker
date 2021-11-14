@@ -4,19 +4,17 @@ import classes from "./Sidebar.module.css";
 
 const Sidebar = () => {
   return (
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <NavLink to="/dashboard">Dashboard</NavLink>
-            </li>
+    <nav>
+      <ul>
+        <li>
+          <NavLink to="/dashboard">Dashboard</NavLink>
+        </li>
 
-            <li>
-              <NavLink to="/projects">Projects</NavLink>
-            </li>          
-          </ul>
-        </nav>
-      </div>
+        <li>
+          <NavLink to="/projects">Projects</NavLink>
+        </li>          
+      </ul>
+    </nav>
   )
 }
 
