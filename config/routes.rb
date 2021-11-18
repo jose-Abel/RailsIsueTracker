@@ -3,7 +3,13 @@ Rails.application.routes.draw do
     namespace :v1 do
       get 'projects/index'
       post 'projects/create'
+      put 'projects/update'
       delete 'projects/:id', to: 'projects#destroy'
+
+      get 'users/index'
+      post 'users/create'
+      put 'users/update'
+      delete 'users/:id', to: 'users#destroy'
     end
   end
   root 'dashboard#index'
