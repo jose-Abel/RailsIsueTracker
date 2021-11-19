@@ -7,7 +7,7 @@ const Projects = () => {
 
   useEffect(() => {
     const fetchProjects = async () => {
-      const response = await fetch("api/v1/projects/index");
+      const response = await fetch("/api/v1/projects/index");
 
       if (!response.ok) {
         throw new Error("Something went wrong");
@@ -26,7 +26,7 @@ const Projects = () => {
     <div>
       <h1>Hello from Projects</h1>
         {projects.map((project)=> (
-          <ProjectDetail key="project.id" project={project}/>
+          <ProjectDetail key={project.id} project={project}/>
         ))}
     </div>
   )

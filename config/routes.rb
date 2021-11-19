@@ -12,7 +12,8 @@ Rails.application.routes.draw do
       delete 'users/:id', to: 'users#destroy'
     end
   end
-  root 'dashboard#index'
-  get 'dashboard', to: 'dashboard#index'  
+  root 'homepage#index'
+  get 'homepage', to: 'homepage#index'
+  get 'homepage/projects', to: 'projects#index'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

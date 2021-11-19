@@ -7,11 +7,11 @@ const Sidebar = () => {
     <nav>
       <ul>
         <li>
-          <NavLink to="/dashboard">Dashboard</NavLink>
+          <NavLink to="/homepage/dashboard">Dashboard</NavLink>
         </li>
 
         <li>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink to="/homepage/projects">Projects</NavLink>
         </li>          
       </ul>
     </nav>

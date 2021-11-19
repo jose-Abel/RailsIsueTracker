@@ -1,32 +1,31 @@
 import React from 'react';
 import { Route, Switch, Redirect } from "react-router-dom";
-import Projects from '../features/projects/Projects';
-import Dashboard from '../features/dashboard/Dashboard';
-import ProjectDetail from '../features/projects/ProjectDetail';
-import Sidebar from './layout/Sidebar';
+import HomePage from './layout/home/HomePage';
+import Projects from './features/projects/Projects';
 import classes from './App.module.css';
+import Dashboard from './layout/dashboard/Dashboard';
 
 const App = () => {
   return (
     <div>
-      <Sidebar/>
       <main>
         <Switch>
           <Route exact path="/">
-            <Redirect to="/dashboard" />
+            <Redirect to="/homepage" />
           </Route>
 
-          <Route path="/dashboard">
-            <Dashboard/>
+          <Route path="/homepage">
+            <HomePage/>
           </Route>
 
-          <Route exact path="/projects">
-            <Projects/>
+          <Route path="/homepage/dashboard">
+            <Dashboard />
           </Route>
 
-          <Route path="/projects/:projectId">
-            <ProjectDetail/>
+          <Route path="/homepage/projects">
+            <Projects />
           </Route>
+  
         </Switch>
       </main>
     </div>
