@@ -4,14 +4,14 @@ import classes from "./Sidebar.module.css";
 
 const Sidebar = () => {
   return (
-    <nav>
+    <nav className={classes.sidebar}>
       <ul>
-        <li>
-          <NavLink to="/homepage/dashboard">Dashboard</NavLink>
+        <li className={classes.navLi}>
+          <NavLink className={classes.navATag} to="/homepage/dashboard">Dashboard</NavLink>
         </li>
 
-        <li>
-          <NavLink to="/homepage/projects">Projects</NavLink>
+        <li className={classes.navLi}>
+          <NavLink className={classes.navATag} to="/homepage/projects">Projects</NavLink>
         </li>          
       </ul>
     </nav>

@@ -1,1 +1,18 @@
+.sidebar {
+  margin-right: 8rem;
+}
 
+.navLi {
+  list-style: none;
+  font-size: 4rem;
+  margin: 2rem 0 4rem 0;
+}
+
+.navATag {
+  text-decoration: none;
+}
+
+.navATag:hover {
+  background-color: #fff;
+  color: black;
+}

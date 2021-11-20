@@ -9,7 +9,6 @@ const HomePage = () => {
 
   return (
     <div className={classes.homepage}>
-      <h1>Hello from Home Page</h1>
       <Sidebar />
 
       <Route exact path="/homepage/dashboard">
